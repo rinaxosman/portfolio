@@ -266,6 +266,7 @@ header{
     bottom: -20px;    
 }
 
+
 #html{
     left: 100px;
     bottom: 80px;
@@ -273,6 +274,15 @@ header{
     background-size: cover;
     background-color: rgb(168, 98, 110);
     box-shadow: -40px 60px 15px rgb(50 50 50/15%);
+}
+
+.dark #html{
+    left: 100px;
+    bottom: 80px;
+    background-image: url("images/html-square.png");
+    background-size: cover;
+    background-color: rgb(168, 98, 110);
+    box-shadow: -40px 60px 15px rgba(0, 0, 0, 0.15);
 }
 
 #html:before{
@@ -294,6 +304,15 @@ header{
     box-shadow: -60px 60px 15px rgb(50 50 50/15%);
 }
 
+.dark #css{
+    left: 250;
+    bottom: 240px;
+    background-image: url("images/css-square.png");
+    background-size: cover;
+    background-color: rgb(115, 194, 157);
+    box-shadow: -60px 60px 15px rgba(0, 0, 0, 0.15);
+}
+
 #css:before{
     /* background-color: rgb(104, 59, 66); */
     background-color:rgb(57, 87, 73);
@@ -311,6 +330,15 @@ header{
     background-size: cover;
     background-color: rgb(115, 120, 194);
     box-shadow: -60px 60px 15px rgb(50 50 50/15%);
+}
+
+.dark #javascript{
+    left: 420;
+    bottom: 80px;
+    background-image: url("images/javascript-square.png");
+    background-size: cover;
+    background-color: rgb(115, 120, 194);
+    box-shadow: -60px 60px 15px rgba(0, 0, 0, 0.15);
 }
 
 #javascript:before{
@@ -331,6 +359,15 @@ header{
     background-size: cover;
     background-color: rgb(27, 119, 155);
     box-shadow: -60px 60px 15px rgb(50 50 50/15%);
+}
+
+.dark #react{
+    left: 300;
+    bottom: -80px;
+    background-image: url("images/react-square.png");
+    background-size: cover;
+    background-color: rgb(27, 119, 155);
+    box-shadow: -60px 60px 15px rgba(0, 0, 0, 0.15);
 }
 
 #react:before{
