@@ -8,12 +8,31 @@
 
 <body>
     <header>
+        <nav id='menu'>
+            <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+            <ul>
+              <li><a href='http://'>Home</a></li>
+              <li><a href='http://'>About Me</a></li>
+              <li><a href='http://'>Projects</a></li>
+              <li><a class='dropdown-arrow' href='http://'>Contact Me</a>
+                <ul class='sub-menus'>
+                  <li><a href='https://www.linkedin.com/in/rina-osman/'>LinkedIn</a></li>
+                  <li><a href='https://github.com/rinaxosman'>GitHub</a></li>
+                  <li><a href='mailto:rinaxosman@gmail.com'>Email</a></li>
+                </ul>
+              </li>
+            </ul>
+        </nav>
+
         <div class="switch">
             <div class="flicker"></div>
             <div class="moon"></div>
             <div class="sun"></div>
-        </div>
+        </div>  
     </header>
+
+
+    
 
     <section class="main">
         <div class="main-text">
@@ -34,6 +53,8 @@
             <div class="cube" id="javascript"></div>
             <div class="cube" id="html"></div>
             <div class="cube" id="css"></div>
+            <div class="cube" id="python"></div>
+            <div class="cube" id="java"></div>
         </div>
     </section>
 
